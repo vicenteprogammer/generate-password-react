@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.password-box{
+  background-color: rgb(151, 189, 127);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 250px;
+  border-radius: 10px;
+  padding: 20px;
+
+
+}
+
+.range-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.btn-password{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.render-pass{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.copy-pass{
+  border-style: none;
+  height: 30px;
+  margin-top: 3px;
+  border-radius: 3px;
+}
